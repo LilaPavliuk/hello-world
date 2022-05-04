@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+<script src="https://kit.fontawesome.com/5619db74ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<header class="header">
+<nav class="header__contacts">
+<a href="tel:+23875487458485">+23875487458485</a>
+<div>
+<a href="https://twitter.com">
+ <i class="fa-brands fa-twitter"></i>
+ </a>
+<a href="https://facebook.com">
+<i class="fa-brands fa-facebook"></i>
+</a>
+<a href="https://instagram.com">
+<i class="fa-brands fa-instagram"></i>
+</a>
+</div>
+</nav>
+<nav class="header__top_navigation">
+<div></div>
+</nav>
+<div class="header__banner"></div>
+
+</header>
+</body>
+</html>
