@@ -22,12 +22,6 @@ body {
     align-items: center;
 }
 
-.logo{
-    width: 320px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 nav {
     width: 320px;
     display: flex;
