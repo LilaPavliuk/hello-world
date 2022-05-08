@@ -1,0 +1,32 @@
+
+.container {
+    width: 100%;
+    max-width: 1330px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.gallery_content {
+    padding-top: 90px;
+}
+.gallery_inner{
+    text-align: center;}
+
+.gallery_title {
+    text-align: center;
+    font-size: 62px;
+    font-weight: 600;
+    line-height:1.5;
+    color: #222;
+    font-family: Crimson Text, serif;
+}
+.gallery_logo{
+    width: 100px;
+}
+
+.gallery_sub_title {
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    font-family: PT Sans, sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+}
