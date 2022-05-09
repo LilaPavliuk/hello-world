@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 1330px;
     padding: 0 25px 0 25px;
+   /* box-sizing: border-box;*/
 }
 
 .gallery_content {
