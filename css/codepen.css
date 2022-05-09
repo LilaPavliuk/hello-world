@@ -9,10 +9,12 @@
 body {
     background-color: #eee;
     font-family: 'Lato', sans-serif;
+  display:flex;
 }
 
 /*--------------------------------HEADER-----------------------------------------*/
-.header {
+#header {
+    width: 100%;
     position: fixed;
     top: 0;
     min-height: 75px;
@@ -20,19 +22,21 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+   background-color:#eee;
 }
-
-nav {
-    width: 320px;
+ .nav-link {width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+
 a {
     text-decoration: none;
 }
-
+a:hover{
+  color:red;
+}
 .btn {
     padding: 0 20px;
     height: 40px;
@@ -46,6 +50,10 @@ a {
     border: 3px black solid;
     border-radius: 2px;
 }
+button:hover{
+  background-color:orange;
+}
+
 
 #form {
     display: flex;
@@ -78,9 +86,70 @@ h2 {
 }
 
 /*--------------------------------MAIN----------------------------------------------*/
+.grid {
+  display: flex;}
 
+#features .icon{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 100px;
+    color: darkorange;
+}
+ features .desc {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+   padding: 5px}
 
+#how-it-works{
+   text-align:center;
+  margin: 50px 0 0;
+}
+#video{
+  width:450px;
+  height: 300px;
+}
+#pricing{
+  margin-top: 60px;
+  display: flex;
+   justify-content: center;
+}
+ .product{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width:300px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+  font-weight: 700;
+}
+ol{
+  list-style-type: none;
+}
 
+.product > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;}
+
+button:hover{
+  background-color:orange;
+}
+ 
 
 
 
@@ -89,3 +158,15 @@ h2 {
 
 
 /*--------------------------------FOOTER------------------------------------------------*/
+footer {
+    width:100%;
+   margin-top: 30px;
+   background-color: #ddd;
+  padding: 20px;
+   width: 100%;
+  text-align:right;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
