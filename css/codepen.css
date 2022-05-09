@@ -73,6 +73,7 @@ button:hover{
     margin: 15px 0;
     border: 0;
     background-color: #f1c40f;
+  padding:0;
 }
 
 #form input[type='email'] {
